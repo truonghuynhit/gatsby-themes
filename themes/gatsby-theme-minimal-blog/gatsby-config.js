@@ -23,6 +23,7 @@ module.exports = options => {
         resolve: `gatsby-plugin-feed`,
         options: newsletterFeed(feedTitle),
       },
+      `gatsby-plugin-loadable-components-ssr`,
       `gatsby-plugin-react-helmet`,
       `gatsby-plugin-typescript`,
       `gatsby-plugin-catch-links`,
